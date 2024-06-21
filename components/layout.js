@@ -3,7 +3,7 @@ import Head from "next/head";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
-const name = "Shin Code";
+const name = "Zaaky Web";
 export const siteTitle = "Next.js Blog";
 
 function Layout({ children, home }) {
@@ -16,7 +16,7 @@ function Layout({ children, home }) {
         {home ? (
           <>
             <img
-              src="/images/profile.png"
+              src="/images/zakky.png"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
